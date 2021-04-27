@@ -47,7 +47,7 @@ const qlphdArr = [],kzyhdArr = [],qlpcount = ''
 let times = Math.round(Date.now() / 1000)
 let qlphd = $.getdata('qlphd')
 let kzyhd = $.getdata('kzyhd')
-let tx = 0  //数字改为1运行脚本可自动提现。联系手动运行。需要提现的时候再改
+let tx = 1  //数字改为1运行脚本可自动提现。联系手动运行。需要提现的时候再改
 !(async () => {
   if (typeof $request !== "undefined") {
     await qlpck()
