@@ -37,8 +37,8 @@ const $ = new Env('答题全明星');
 const notify = $.isNode() ? require('./sendNotify') : '';
 const logs = 0 //响应日志开关,默认关闭
 let subTitle = ``
-let apptyq = process.env.tyq//是否填邀请，默认true
-let apptz = process.env.ts//是否推送，默认true
+let apptyq = true//是否填邀请，默认true
+let apptz = true//是否推送，默认true
 let apptx=true//默认提现假,需要自行修改变量 RL_tx=true/false
 let appje=''//提现金额,默认1.0元,需要修改自行添加变量 RL_tx=''
 let DT_token=[],ggboby=''
