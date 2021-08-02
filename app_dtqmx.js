@@ -41,7 +41,7 @@ let apptyq = process.env.tyq//是否填邀请，默认true
 let apptz = process.env.ts//是否推送，默认true
 let apptx=true//默认提现假,需要自行修改变量 RL_tx=true/false
 let appje=''//提现金额,默认1.0元,需要修改自行添加变量 RL_tx=''
-let DT_token=[],ggboby=''
+let DT_token=[Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0eXBlIjoiYXBwYXBpIiwiYXBwSWQiOiJhYXMyMDIxMDAwMDgyNjYiLCJ1aWQiOiI2NjAyOTk5MTYiLCJwYXlsb2FkIjp7ImFwcF92ZXJzaW9uIjoiMi40LjIiLCJpcCI6IjEyMC44Mi4xMTcuMzAiLCJsYXRMbmciOiIiLCJzYzIiOiJsY190dCJ9LCJhdWQiOiJhcHBhcGkubW0iLCJleHAiOjE2Mjg0ODg3MjEsImlhdCI6MTYyNzg4MzkyMSwiaXNzIjoiYXV0aC1hcHBhcGkubW0ifQ.uMh7X7msv-SSO0H8FMri_XI8YL2GffcaM9_0tnOnrKg],ggboby=''
 
 if ($.isNode()) {
     
