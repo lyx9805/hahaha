@@ -2,6 +2,9 @@
 ##版本：v1.0
 ##author:lyx98
 
+#!/bin/env python3
+# -*- coding: utf-8 -*
+
 import os
 import re
 import time
