@@ -35,8 +35,10 @@ def send_code(code):
 def main():
     code_list = []
     target_path = root_path + '/log/shufflewzc_faker2_jd_carnivalcity_help'
-    filename = time.strftime("%Y-%m-%d", time.localtime()) + '-00-10-01.log'
-    target_file = target_path + '/' + filename
+    filename_list = os.listdir(target_path)
+    filename_list = sorted(filename_list, key=lambda x: os.path.getmtime(os.path.join(target_path, x)))
+    target_file = target_path + '/' + filename_list[-1]
+    print(target_file)
     if os.path.exists(target_path):
         with open("{}".format(target_file), 'r', encoding='utf-8') as f:
             line_list = f.readlines()
