@@ -23,8 +23,6 @@ jobs:
       - name: 'Install requests'
         run: |
             pip install requests
-      - name: "安装依赖包"
-        run: pip install -r requirements.txt
 
       - name: 'run 中青看点'
         run: |
